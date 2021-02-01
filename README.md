@@ -85,7 +85,12 @@
        ![image-20210129162118156](README.assets/image-20210129162118156.png)
 
      - 
+   
   8. openwrt中的n2n默认使用的加密算法为twofish,因此n2n的其他节点都需要使用该种加密算法,即在edge启动时使用-A2参数。（注意加密算法在openwrt的界面上无法更改)
+
+  9. 在web页面配置n2n的路由规则无法生效，需要在命令行手动配置路由
+
+     ![image-20210201131743415](README.assets/image-20210201131743415.png)
 
 
 ## Others
